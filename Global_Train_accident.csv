@@ -1,0 +1,413 @@
+accident_id,date,year,decade,year_interval,country,continent,train_type,accident_type,cause_category,deaths,injured,hazmat_involved,severity_score,severity_level,casualty_type,incident_summary
+1,2000-01-04,2000,2000,2000–2004,Norway,Europe,Passenger,Collision,Human Error,19,0,False,95.0,High,Fatal,Head-on collision
+2,2000-02-06,2000,2000,2000–2004,Germany,Europe,Passenger,Derailment,Human Error,9,0,False,45.0,Medium,Fatal,Overspeed through turnout
+3,2000-03-02,2000,2000,2000–2004,Denmark,Europe,Passenger,Collision,Human Error,3,10,False,25.0,Medium,Fatal,Signal passed at danger
+4,2000-03-08,2000,2000,2000–2004,Japan,Asia,Metro,Derailment,Infrastructure Failure,5,63,False,88.0,High,Fatal,Derailment then collision
+5,2000-03-28,2000,2000,2000–2004,United States,North America,Cargo,Collision,Human Error,3,0,False,15.0,Low,Fatal,School bus at crossing
+6,2000-04-18,2000,2000,2000–2004,Indonesia,Asia,Mixed,Collision,Infrastructure Failure,3,0,False,15.0,Low,Fatal,Multiple train collision
+7,2000-06-06,2000,2000,2000–2004,Switzerland,Europe,Mixed,Collision,External / Other,1,0,False,5.0,Low,Fatal,Passenger–freight collision
+8,2000-07-06,2000,2000,2000–2004,France,Europe,High-Speed,Derailment,Infrastructure Failure,0,6,False,6.0,Low,Non-fatal,Eurostar derailment
+9,2000-08-26,2000,2000,2000–2004,United States,North America,Cargo,Derailment,External / Other,1,1,False,6.0,Low,Fatal,Switch tampering
+10,2000-10-17,2000,2000,2000–2004,United Kingdom,Europe,High-Speed,Derailment,Infrastructure Failure,4,102,False,122.0,Extreme,Fatal,Rail fatigue failure
+11,2000-11-11,2000,2000,2000–2004,Austria,Europe,Passenger,Fire/Explosion,Technical Failure,155,0,False,775.0,Extreme,Fatal,Funicular tunnel fire
+12,2000-12-02,2000,2000,2000–2004,India,Asia,Mixed,Collision,Infrastructure Failure,45,0,False,225.0,Extreme,Fatal,Passenger hit freight
+13,2001-01-12,2001,2000,2000–2004,Republic Of The Congo,Africa,Mixed,Collision,Technical Failure,30,0,False,150.0,Extreme,Fatal,Brake failure
+14,2001-02-07,2001,2000,2000–2004,Canada,North America,Passenger,Derailment,External / Other,0,2,False,2.0,Low,Non-fatal,Low-speed derailment
+15,2001-02-28,2001,2000,2000–2004,United Kingdom,Europe,Mixed,Collision,Human Error,10,80,False,130.0,Extreme,Fatal,Vehicle obstruction
+16,2001-03-27,2001,2000,2000–2004,Belgium,Europe,Passenger,Collision,Human Error,8,12,False,52.0,Medium,Fatal,Communication failure
+17,2001-04-12,2001,2000,2000–2004,Canada,North America,Passenger,Derailment,External / Other,0,22,False,22.0,Medium,Non-fatal,Switch tampering
+18,2001-05-15,2001,2000,2000–2004,United States,North America,Cargo,Runaway Train,Human Error,0,0,False,0.0,Low,Non-fatal,Unattended locomotive
+19,2001-06-22,2001,2000,2000–2004,India,Asia,Passenger,Derailment,Environmental / Natural,59,0,False,295.0,Extreme,Fatal,Bridge washout
+20,2002-01-18,2002,2000,2000–2004,United States,North America,Cargo,Derailment,Technical Failure,1,0,True,5.0,Low,Fatal,Ammonia release
+21,2002-02-06,2002,2000,2000–2004,South Africa,Africa,Metro,Collision,Infrastructure Failure,22,0,False,110.0,High,Fatal,Commuter collision
+22,2002-02-20,2002,2000,2000–2004,Egypt,Africa,Passenger,Fire/Explosion,Technical Failure,383,0,False,1915.0,Extreme,Fatal,Gas cylinder fire
+23,2002-04-18,2002,2000,2000–2004,United States,North America,Passenger,Derailment,Infrastructure Failure,4,142,False,162.0,Extreme,Fatal,Amtrak derailment
+24,2003-01-19,2003,2000,2000–2004,Australia,Oceania,Passenger,Derailment,Human Error,7,40,False,75.0,High,Fatal,Driver incapacitated
+25,2003-02-28,2003,2000,2000–2004,South Korea,Asia,Metro,Fire/Explosion,External / Other,192,148,False,1108.0,Extreme,Fatal,Subway arson
+26,2003-03-04,2003,2000,2000–2004,United States,North America,Cargo,Derailment,Infrastructure Failure,4,0,False,20.0,Medium,Fatal,Freight derailment
+27,2003-04-28,2003,2000,2000–2004,China,Asia,Passenger,Collision,Infrastructure Failure,70,420,False,770.0,Extreme,Fatal,Passenger collision
+28,2003-05-14,2003,2000,2000–2004,India,Asia,Passenger,Fire/Explosion,Technical Failure,38,0,False,190.0,Extreme,Fatal,Onboard fire
+29,2003-06-01,2003,2000,2000–2004,Japan,Asia,Passenger,Derailment,Technical Failure,1,22,False,27.0,Medium,Fatal,Limited express derailment
+30,2003-07-10,2003,2000,2000–2004,France,Europe,Cargo,Derailment,External / Other,0,5,False,5.0,Low,Non-fatal,Minor derailment
+31,2003-08-18,2003,2000,2000–2004,United States,North America,Cargo,Collision,Human Error,3,0,False,15.0,Low,Fatal,Level crossing
+32,2003-09-12,2003,2000,2000–2004,India,Asia,Passenger,Collision,Human Error,21,25,False,130.0,Extreme,Fatal,Passenger collision
+33,2003-12-23,2003,2000,2000–2004,Iran,Asia,Cargo,Fire/Explosion,Technical Failure,295,450,True,1925.0,Extreme,Fatal,Chemical explosion
+34,2004-01-04,2004,2000,2000–2004,Pakistan,Asia,Passenger,Collision,Infrastructure Failure,18,45,False,135.0,Extreme,Fatal,Passenger collision
+35,2004-02-18,2004,2000,2000–2004,Iran,Asia,Passenger,Derailment,Infrastructure Failure,5,30,False,55.0,Medium,Fatal,Passenger derailment
+36,2004-04-26,2004,2000,2000–2004,North Korea,Asia,Cargo,Fire/Explosion,Technical Failure,162,0,True,810.0,Extreme,Fatal,Explosive cargo
+37,2004-06-02,2004,2000,2000–2004,Sri Lanka,Asia,Passenger,Collision,Human Error,10,40,False,90.0,High,Fatal,Junction collision
+38,2004-08-02,2004,2000,2000–2004,Paraguay,South America,Passenger,Fire/Explosion,Technical Failure,0,0,False,0.0,Low,Non-fatal,Carriage fire
+39,2004-09-12,2004,2000,2000–2004,United States,North America,Mixed,Collision,Human Error,11,180,False,235.0,Extreme,Fatal,Passenger hit freight
+40,2004-10-15,2004,2000,2000–2004,India,Asia,Passenger,Derailment,Human Error,13,50,False,115.0,High,Fatal,Overspeeding
+41,2004-11-20,2004,2000,2000–2004,Egypt,Africa,Passenger,Fire/Explosion,Technical Failure,0,20,False,20.0,Medium,Non-fatal,Minor fire
+42,2004-12-26,2004,2000,2000–2004,India,Asia,Passenger,Derailment,Environmental / Natural,1700,0,False,8500.0,Extreme,Fatal,Tsunami impact
+43,2005-01-15,2005,2000,2005–2009,Pakistan,Asia,Passenger,Collision,Infrastructure Failure,31,45,False,200.0,Extreme,Fatal,Passenger collision
+44,2005-02-03,2005,2000,2005–2009,United States,North America,Cargo,Derailment,Infrastructure Failure,9,2500,True,2545.0,Extreme,Fatal,Chlorine release
+45,2005-03-22,2005,2000,2005–2009,Egypt,Africa,Passenger,Fire/Explosion,Technical Failure,15,30,False,105.0,High,Fatal,Overcrowded fire
+46,2005-04-29,2005,2000,2005–2009,Japan,Asia,Passenger,Derailment,Human Error,107,562,False,1097.0,Extreme,Fatal,Overspeeding
+47,2005-06-21,2005,2000,2005–2009,India,Asia,Passenger,Collision,Human Error,10,60,False,110.0,High,Fatal,Stationary train hit
+48,2005-08-06,2005,2000,2005–2009,United Kingdom,Europe,Metro,Fire/Explosion,Technical Failure,0,62,False,62.0,High,Non-fatal,Electrical fire
+49,2005-10-29,2005,2000,2005–2009,India,Asia,Passenger,Derailment,Environmental / Natural,77,0,False,385.0,Extreme,Fatal,Heavy rain
+50,2005-12-03,2005,2000,2005–2009,Nigeria,Africa,Passenger,Collision,Human Error,12,25,False,85.0,High,Fatal,Passenger collision
+51,2006-02-20,2006,2000,2005–2009,Philippines,Asia,Metro,Collision,Infrastructure Failure,0,30,False,30.0,Medium,Non-fatal,LRT collision
+52,2006-03-11,2006,2000,2005–2009,India,Asia,Passenger,Collision,Human Error,30,40,False,190.0,Extreme,Fatal,Passenger collision
+53,2006-04-21,2006,2000,2005–2009,United States,North America,Metro,Collision,Human Error,0,58,False,58.0,Medium,Non-fatal,Light rail collision
+54,2006-06-03,2006,2000,2005–2009,Spain,Europe,Passenger,Collision,Human Error,19,48,False,143.0,Extreme,Fatal,Overspeeding
+55,2006-07-11,2006,2000,2005–2009,India,Asia,Passenger,Derailment,Environmental / Natural,209,700,False,1745.0,Extreme,Fatal,Monsoon flooding
+56,2006-08-05,2006,2000,2005–2009,United States,North America,Cargo,Collision,Human Error,0,2,False,2.0,Low,Non-fatal,Low-speed collision
+57,2006-09-01,2006,2000,2005–2009,China,Asia,Passenger,Collision,Infrastructure Failure,72,416,False,776.0,Extreme,Fatal,Passenger collision
+58,2006-10-29,2006,2000,2005–2009,India,Asia,Passenger,Derailment,Technical Failure,6,80,False,110.0,High,Fatal,Axle failure
+59,2007-01-19,2007,2000,2005–2009,United Kingdom,Europe,Passenger,Derailment,Infrastructure Failure,1,88,False,93.0,High,Fatal,Points failure
+60,2007-02-18,2007,2000,2005–2009,India,Asia,Passenger,Collision,Human Error,1,20,False,25.0,Medium,Fatal,Level crossing
+61,2007-03-04,2007,2000,2005–2009,Indonesia,Asia,Passenger,Derailment,Infrastructure Failure,7,63,False,98.0,High,Fatal,Track subsidence
+62,2007-05-12,2007,2000,2005–2009,United States,North America,Cargo,Derailment,Technical Failure,0,2,False,2.0,Low,Non-fatal,Brake failure
+63,2007-07-22,2007,2000,2005–2009,France,Europe,Metro,Collision,Human Error,0,30,False,30.0,Medium,Non-fatal,Rear-end collision
+64,2007-08-03,2007,2000,2005–2009,India,Asia,Passenger,Derailment,Environmental / Natural,0,35,False,35.0,Medium,Non-fatal,Heavy rain
+65,2007-10-31,2007,2000,2005–2009,China,Asia,Passenger,Collision,Infrastructure Failure,6,20,False,50.0,Medium,Fatal,Passenger collision
+66,2007-11-15,2007,2000,2005–2009,United States,North America,Metro,Collision,Human Error,0,19,False,19.0,Low,Non-fatal,CTA collision
+67,2008-01-05,2008,2000,2005–2009,India,Asia,Passenger,Collision,Human Error,2,28,False,38.0,Medium,Fatal,Stationary train hit
+68,2008-02-03,2008,2000,2005–2009,United States,North America,Passenger,Collision,Human Error,25,135,False,260.0,Extreme,Fatal,Metrolink crash
+69,2008-04-28,2008,2000,2005–2009,China,Asia,Passenger,Collision,Infrastructure Failure,72,416,False,776.0,Extreme,Fatal,Passenger collision
+70,2008-06-14,2008,2000,2005–2009,India,Asia,Passenger,Derailment,Environmental / Natural,0,60,False,60.0,High,Non-fatal,Monsoon derailment
+71,2008-07-19,2008,2000,2005–2009,Spain,Europe,Metro,Derailment,Human Error,43,47,False,262.0,Extreme,Fatal,Overspeeding
+72,2008-08-05,2008,2000,2005–2009,Georgia,Europe,Passenger,Derailment,External / Other,0,30,False,30.0,Medium,Non-fatal,Passenger derailment
+73,2008-09-12,2008,2000,2005–2009,United States,North America,Passenger,Collision,Human Error,25,135,False,260.0,Extreme,Fatal,Head-on collision
+74,2008-10-23,2008,2000,2005–2009,India,Asia,Passenger,Derailment,Infrastructure Failure,1,20,False,25.0,Medium,Fatal,Track defect
+75,2009-01-10,2009,2000,2005–2009,United States,North America,Metro,Collision,Human Error,9,80,False,125.0,Extreme,Fatal,Rear-end collision
+76,2009-02-13,2009,2000,2005–2009,India,Asia,Passenger,Derailment,Infrastructure Failure,0,15,False,15.0,Low,Non-fatal,Passenger derailment
+77,2009-03-20,2009,2000,2005–2009,Germany,Europe,Metro,Collision,Infrastructure Failure,0,25,False,25.0,Medium,Non-fatal,Metro collision
+78,2009-04-15,2009,2000,2005–2009,China,Asia,Passenger,Derailment,Infrastructure Failure,6,70,False,100.0,High,Fatal,Passenger derailment
+79,2009-05-08,2009,2000,2005–2009,Italy,Europe,Metro,Collision,Human Error,0,30,False,30.0,Medium,Non-fatal,Rear-end collision
+80,2009-06-01,2009,2000,2005–2009,India,Asia,Passenger,Collision,Human Error,10,50,False,100.0,High,Fatal,Passenger collision
+81,2009-07-02,2009,2000,2005–2009,Russia,Europe,Metro,Derailment,Technical Failure,0,22,False,22.0,Medium,Non-fatal,Equipment failure
+82,2009-09-02,2009,2000,2005–2009,Indonesia,Asia,Passenger,Collision,Infrastructure Failure,10,50,False,100.0,High,Fatal,Passenger collision
+83,2009-10-23,2009,2000,2005–2009,United States,North America,Passenger,Derailment,Technical Failure,0,6,False,6.0,Low,Non-fatal,Coaster derailment
+84,2009-11-28,2009,2000,2005–2009,India,Asia,Passenger,Collision,Human Error,14,40,False,110.0,High,Fatal,Passenger collision
+85,2010-01-04,2010,2010,2010–2014,United States,North America,Metro,Collision,Human Error,0,15,False,15.0,Low,Non-fatal,Metro rear-end collision
+86,2010-02-12,2010,2010,2010–2014,India,Asia,Passenger,Derailment,Infrastructure Failure,7,35,False,70.0,High,Fatal,Passenger train derailment
+87,2010-02-15,2010,2010,2010–2014,Germany,Europe,Cargo,Derailment,Technical Failure,0,2,False,2.0,Low,Non-fatal,Freight derailment
+88,2010-03-01,2010,2010,2010–2014,China,Asia,Passenger,Collision,Infrastructure Failure,19,71,False,166.0,Extreme,Fatal,Two passenger trains collided
+89,2010-04-21,2010,2010,2010–2014,South Africa,Africa,Passenger,Collision,Human Error,0,25,False,25.0,Medium,Non-fatal,Commuter train crash
+90,2010-05-28,2010,2010,2010–2014,India,Asia,Passenger,Derailment,Environmental / Natural,0,60,False,60.0,High,Non-fatal,Heavy rain caused derailment
+91,2010-06-09,2010,2010,2010–2014,United States,North America,Cargo,Derailment,Infrastructure Failure,0,1,False,1.0,Low,Non-fatal,Freight derailment
+92,2010-07-13,2010,2010,2010–2014,China,Asia,Passenger,Collision,Infrastructure Failure,0,211,False,211.0,Extreme,Non-fatal,Rear-end collision
+93,2010-08-07,2010,2010,2010–2014,Italy,Europe,Cargo,Derailment,Technical Failure,1,15,True,20.0,Medium,Fatal,Hazardous chemicals leaked
+94,2010-09-24,2010,2010,2010–2014,India,Asia,Passenger,Derailment,Human Error,0,28,False,28.0,Medium,Non-fatal,Suburban train derailment
+95,2010-10-18,2010,2010,2010–2014,United States,North America,Passenger,Collision,Human Error,0,42,False,42.0,Medium,Non-fatal,Passenger train collision
+96,2010-11-19,2010,2010,2010–2014,China,Asia,Metro,Collision,Infrastructure Failure,0,50,False,50.0,Medium,Non-fatal,Metro system crash
+97,2010-12-28,2010,2010,2010–2014,Australia,Oceania,Cargo,Derailment,Environmental / Natural,0,2,False,2.0,Low,Non-fatal,Flood-related derailment
+98,2011-03-27,2011,2010,2010–2014,Canada,North America,Passenger,Derailment,Infrastructure Failure,0,0,False,0.0,Low,Non-fatal,Homes evacuated after VIA Rail derailment
+99,2011-03-28,2011,2010,2010–2014,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,False,0.0,Low,Non-fatal,Multiple cars fell from bridge
+100,2011-04-17,2011,2010,2010–2014,Israel,Asia,Passenger,Collision,Infrastructure Failure,0,60,False,60.0,High,Non-fatal,Two trains collided
+101,2011-04-28,2011,2010,2010–2014,Taiwan,Asia,Passenger,Derailment,Technical Failure,6,61,False,91.0,High,Fatal,Tourist train accident
+102,2011-05-08,2011,2010,2010–2014,United States,North America,Metro,Collision,Human Error,0,34,False,34.0,Medium,Non-fatal,PATH train crash
+103,2011-05-20,2011,2010,2010–2014,South Africa,Africa,Passenger,Collision,Infrastructure Failure,0,300,False,300.0,Extreme,Non-fatal,Commuter trains collided
+104,2011-05-24,2011,2010,2010–2014,United States,North America,Cargo,Collision,Human Error,2,0,False,10.0,Low,Fatal,Freight trains collision
+105,2011-06-28,2011,2010,2010–2014,United States,North America,Passenger,Collision,Human Error,6,0,False,30.0,Medium,Fatal,Amtrak train hit truck
+106,2011-07-07,2011,2010,2010–2014,India,Asia,Passenger,Collision,Human Error,38,0,False,190.0,Extreme,Fatal,Train rammed into bus at crossing
+107,2011-07-10,2011,2010,2010–2014,India,Asia,Passenger,Derailment,Infrastructure Failure,70,300,False,650.0,Extreme,Fatal,Passenger train derailment
+108,2011-07-11,2011,2010,2010–2014,India,Asia,Passenger,Derailment,Infrastructure Failure,0,100,False,100.0,High,Non-fatal,Guwahati–Puri Express derailment
+109,2011-07-24,2011,2010,2010–2014,China,Asia,High-Speed,Collision,Infrastructure Failure,40,210,False,410.0,Extreme,Fatal,High-speed train collision
+110,2011-09-01,2011,2010,2010–2014,India,Asia,Cargo,Collision,Human Error,5,0,False,25.0,Medium,Fatal,Goods trains collision
+111,2011-09-13,2011,2010,2010–2014,Argentina,South America,Passenger,Collision,Human Error,11,228,False,283.0,Extreme,Fatal,Bus–train collision
+112,2011-09-17,2011,2010,2010–2014,Sri Lanka,Asia,Passenger,Derailment,Infrastructure Failure,3,0,False,15.0,Low,Fatal,Passenger derailment
+113,2011-10-07,2011,2010,2010–2014,United States,North America,Cargo,Derailment,Technical Failure,0,0,True,0.0,Low,Non-fatal,Hazardous materials derailment
+114,2011-11-01,2011,2010,2010–2014,Malaysia,Asia,Passenger,Collision,Human Error,0,12,False,12.0,Low,Non-fatal,Train hit fuel tanker
+115,2011-11-22,2011,2010,2010–2014,India,Asia,Passenger,Fire/Explosion,Technical Failure,7,0,False,35.0,Medium,Fatal,Train fire incident
+116,2011-12-28,2011,2010,2010–2014,Australia,Oceania,Cargo,Derailment,Environmental / Natural,0,2,False,2.0,Low,Non-fatal,Flood-related derailment
+117,2012-01-06,2012,2010,2010–2014,United States,North America,Cargo,Collision,Infrastructure Failure,2,0,False,10.0,Low,Fatal,Freight trains collision
+118,2012-01-13,2012,2010,2010–2014,Germany,Europe,Passenger,Collision,Human Error,1,16,False,21.0,Medium,Fatal,Passenger train collision
+119,2012-01-19,2012,2010,2010–2014,Spain,Europe,Passenger,Collision,Human Error,0,25,False,25.0,Medium,Non-fatal,Commuter trains collision
+120,2012-02-01,2012,2010,2010–2014,United States,North America,Passenger,Derailment,Technical Failure,0,6,False,6.0,Low,Non-fatal,Amtrak derailment
+121,2012-02-03,2012,2010,2010–2014,India,Asia,Passenger,Derailment,Infrastructure Failure,3,50,False,65.0,High,Fatal,Passenger derailment near Guwahati
+122,2012-02-28,2012,2010,2010–2014,Argentina,South America,Passenger,Collision,Human Error,51,700,False,955.0,Extreme,Fatal,Once Station crash
+123,2012-03-04,2012,2010,2010–2014,Poland,Europe,Passenger,Collision,Infrastructure Failure,16,58,False,138.0,Extreme,Fatal,Head-on passenger collision
+124,2012-03-06,2012,2010,2010–2014,Ireland,Europe,Metro,Fire/Explosion,Technical Failure,0,1,False,1.0,Low,Non-fatal,DART explosion incident
+125,2012-04-13,2012,2010,2010–2014,Germany,Europe,Passenger,Collision,Human Error,3,0,False,15.0,Low,Fatal,Passenger train collision
+126,2012-04-21,2012,2010,2010–2014,Netherlands,Europe,Passenger,Collision,Infrastructure Failure,0,117,False,117.0,High,Non-fatal,Passenger trains collision
+127,2012-05-13,2012,2010,2010–2014,United States,North America,Metro,Derailment,Technical Failure,0,2,False,2.0,Low,Non-fatal,People mover derailment
+128,2012-05-22,2012,2010,2010–2014,India,Asia,Passenger,Collision,Human Error,25,43,False,168.0,Extreme,Fatal,Hampi Express collision
+129,2012-06-13,2012,2010,2010–2014,Germany,Europe,Metro,Collision,Human Error,0,92,False,92.0,High,Non-fatal,Tram collision
+130,2012-07-13,2012,2010,2010–2014,South Africa,Africa,Passenger,Collision,Human Error,26,0,False,130.0,Extreme,Fatal,Passenger trains collision
+131,2012-07-17,2012,2010,2010–2014,Egypt,Africa,Passenger,Derailment,Infrastructure Failure,0,0,False,0.0,Low,Non-fatal,Urban passenger derailment
+132,2012-07-30,2012,2010,2010–2014,India,Asia,Passenger,Fire/Explosion,Technical Failure,47,0,False,235.0,Extreme,Fatal,Train fire incident
+133,2012-08-06,2012,2010,2010–2014,Argentina,South America,Passenger,Derailment,Technical Failure,0,6,False,6.0,Low,Non-fatal,Station derailment
+134,2012-09-25,2012,2010,2010–2014,Italy,Europe,Passenger,Collision,Human Error,1,25,False,30.0,Medium,Fatal,Passenger collision
+135,2012-11-09,2012,2010,2010–2014,Myanmar,Asia,Passenger,Collision,Human Error,25,0,False,125.0,Extreme,Fatal,Train collision and fire
+136,2012-11-15,2012,2010,2010–2014,United States,North America,Passenger,Collision,Human Error,4,17,False,37.0,Medium,Fatal,Train hit parade float
+137,2012-12-28,2012,2010,2010–2014,Tunisia,Africa,Passenger,Collision,Human Error,5,52,False,77.0,High,Fatal,Train–truck collision
+138,2013-01-15,2013,2010,2010–2014,Egypt,Africa,Passenger,Derailment,Technical Failure,19,0,False,95.0,High,Fatal,Passenger train derailment
+139,2013-01-15,2013,2010,2010–2014,Sweden,Europe,Passenger,Derailment,Human Error,0,0,False,0.0,Low,Non-fatal,Train ran into apartments
+140,2013-01-21,2013,2010,2010–2014,Austria,Europe,Passenger,Collision,Human Error,0,75,False,75.0,High,Non-fatal,Head-on commuter collision
+141,2013-01-31,2013,2010,2010–2014,Australia,Oceania,Passenger,Collision,Human Error,0,0,False,0.0,Low,Non-fatal,Train crashed into station
+142,2013-01-31,2013,2010,2010–2014,South Africa,Africa,Passenger,Collision,Infrastructure Failure,0,150,False,150.0,Extreme,Non-fatal,Commuter trains collision
+143,2013-02-13,2013,2010,2010–2014,Japan,Asia,Passenger,Collision,Human Error,0,15,False,15.0,Low,Non-fatal,Train–truck collision
+144,2013-03-21,2013,2010,2010–2014,Belgium,Europe,Cargo,Derailment,Technical Failure,1,0,True,5.0,Low,Fatal,Toxic chemical derailment
+145,2013-05-02,2013,2010,2010–2014,Serbia,Europe,Passenger,Collision,Infrastructure Failure,0,22,False,22.0,Medium,Non-fatal,Passenger trains collision
+146,2013-05-17,2013,2010,2010–2014,United States,North America,Passenger,Collision,Human Error,0,60,False,60.0,High,Non-fatal,Metro-North collision
+147,2013-05-25,2013,2010,2010–2014,United States,North America,Cargo,Collision,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Freight collision and fire
+148,2013-06-04,2013,2010,2010–2014,Denmark,Europe,Passenger,Collision,Human Error,1,0,False,5.0,Low,Fatal,Train hit tractor
+149,2013-07-13,2013,2010,2010–2014,France,Europe,Passenger,Derailment,Infrastructure Failure,0,30,False,30.0,Medium,Non-fatal,Station derailment
+150,2013-07-24,2013,2010,2010–2014,Spain,Europe,High-Speed,Derailment,Human Error,79,140,False,535.0,Extreme,Fatal,Alvia high-speed derailment
+151,2013-08-25,2013,2010,2010–2014,Mexico,North America,Cargo,Derailment,Infrastructure Failure,0,0,False,0.0,Low,Non-fatal,Migrant train derailment
+152,2013-09-18,2013,2010,2010–2014,Canada,North America,Passenger,Collision,Human Error,6,30,False,60.0,High,Fatal,Bus–train collision
+153,2013-10-19,2013,2010,2010–2014,Argentina,South America,Passenger,Collision,Human Error,0,100,False,100.0,High,Non-fatal,Commuter train crash
+154,2013-10-30,2013,2010,2010–2014,Kenya,Africa,Passenger,Collision,Human Error,0,50,False,50.0,Medium,Non-fatal,Train hit bus
+155,2013-12-01,2013,2010,2010–2014,United States,North America,Passenger,Derailment,Human Error,4,63,False,83.0,High,Fatal,Metro-North derailment
+156,2013-12-22,2013,2010,2010–2014,Kenya,Africa,Cargo,Derailment,Technical Failure,0,0,False,0.0,Low,Non-fatal,Freight train into homes
+157,2013-12-30,2013,2010,2010–2014,Canada,North America,Cargo,Derailment,Technical Failure,0,0,True,0.0,Low,Non-fatal,Oil train derailment and explosion
+158,2014-01-03,2014,2010,2010–2014,India,Asia,Passenger,Derailment,Infrastructure Failure,0,0,False,0.0,Low,Non-fatal,Passenger train derailment
+159,2014-01-08,2014,2010,2010–2014,Bangladesh,Asia,Passenger,Collision,Human Error,0,50,False,50.0,Medium,Non-fatal,Train–bus collision
+160,2014-01-15,2014,2010,2010–2014,United States,North America,Metro,Derailment,Infrastructure Failure,0,0,False,0.0,Low,Non-fatal,Subway derailment
+161,2014-02-04,2014,2010,2010–2014,Germany,Europe,Passenger,Collision,Human Error,1,8,False,13.0,Low,Fatal,Train hit maintenance vehicle
+162,2014-02-08,2014,2010,2010–2014,India,Asia,Passenger,Derailment,Technical Failure,0,20,False,20.0,Medium,Non-fatal,Coach derailment
+163,2014-03-10,2014,2010,2010–2014,Canada,North America,Cargo,Derailment,Technical Failure,0,0,True,0.0,Low,Non-fatal,Oil train derailment
+164,2014-03-19,2014,2010,2010–2014,China,Asia,Cargo,Fire/Explosion,Technical Failure,0,0,True,0.0,Low,Non-fatal,Coal train explosion
+165,2014-04-02,2014,2010,2010–2014,India,Asia,Passenger,Fire/Explosion,Technical Failure,0,0,False,0.0,Low,Non-fatal,Fire in passenger coach
+166,2014-05-09,2014,2010,2010–2014,Nigeria,Africa,Passenger,Collision,Human Error,0,30,False,30.0,Medium,Non-fatal,Train hit vehicle
+167,2014-06-04,2014,2010,2010–2014,India,Asia,Passenger,Derailment,Infrastructure Failure,0,25,False,25.0,Medium,Non-fatal,Passenger train derailment
+168,2014-06-23,2014,2010,2010–2014,United States,North America,Metro,Collision,Infrastructure Failure,0,32,False,32.0,Medium,Non-fatal,CTA train collision
+169,2014-07-15,2014,2010,2010–2014,Russia,Europe,Passenger,Derailment,Infrastructure Failure,23,150,False,265.0,Extreme,Fatal,Suburban train derailment
+170,2014-07-17,2014,2010,2010–2014,Ukraine,Europe,Passenger,Derailment,External / Other,0,0,False,0.0,Low,Non-fatal,Track explosion derailment
+171,2014-08-11,2014,2010,2010–2014,India,Asia,Passenger,Collision,Human Error,0,30,False,30.0,Medium,Non-fatal,Train–truck collision
+172,2014-09-06,2014,2010,2010–2014,Australia,Oceania,Passenger,Derailment,Technical Failure,0,12,False,12.0,Low,Non-fatal,Suburban derailment
+173,2014-10-05,2014,2010,2010–2014,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Chemical spill derailment
+174,2014-10-23,2014,2010,2010–2014,India,Asia,Passenger,Derailment,Infrastructure Failure,0,20,False,20.0,Medium,Non-fatal,Passenger derailment
+175,2014-11-04,2014,2010,2010–2014,China,Asia,Metro,Collision,Human Error,0,285,False,285.0,Extreme,Non-fatal,Metro rear-end collision
+176,2014-12-05,2014,2010,2010–2014,United Kingdom,Europe,Metro,Derailment,Infrastructure Failure,0,0,False,0.0,Low,Non-fatal,Underground derailment
+177,2014-12-28,2014,2010,2010–2014,United States,North America,Metro,Collision,Human Error,0,0,False,0.0,Low,Non-fatal,Subway collision
+178,2015-01-06,2015,2010,2015–2019,India,Asia,Passenger,Derailment,Infrastructure Failure,0,0,False,0.0,Low,Non-fatal,Passenger train derailment
+179,2015-01-14,2015,2010,2015–2019,United States,North America,Metro,Collision,Human Error,0,21,False,21.0,Medium,Non-fatal,Light rail collision
+180,2015-02-03,2015,2010,2015–2019,Germany,Europe,Passenger,Collision,Human Error,2,10,False,20.0,Medium,Fatal,Train struck maintenance crew
+181,2015-02-17,2015,2010,2015–2019,India,Asia,Passenger,Fire/Explosion,Technical Failure,0,9,False,9.0,Low,Non-fatal,Fire in passenger coach
+182,2015-03-10,2015,2010,2015–2019,Canada,North America,Passenger,Derailment,Technical Failure,0,3,False,3.0,Low,Non-fatal,VIA Rail derailment
+183,2015-04-02,2015,2010,2015–2019,China,Asia,Passenger,Collision,Infrastructure Failure,0,66,False,66.0,High,Non-fatal,Passenger trains collided
+184,2015-05-01,2015,2010,2015–2019,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Oil train derailment
+185,2015-05-12,2015,2010,2015–2019,India,Asia,Passenger,Derailment,Infrastructure Failure,0,30,False,30.0,Medium,Non-fatal,Passenger derailment
+186,2015-06-02,2015,2010,2015–2019,United Kingdom,Europe,Passenger,Collision,Human Error,0,5,False,5.0,Low,Non-fatal,Train hit vehicle
+187,2015-06-16,2015,2010,2015–2019,South Africa,Africa,Passenger,Collision,Human Error,0,65,False,65.0,High,Non-fatal,Commuter train collision
+188,2015-07-03,2015,2010,2015–2019,United States,North America,Passenger,Derailment,Human Error,8,200,False,240.0,Extreme,Fatal,Amtrak derailment
+189,2015-08-01,2015,2010,2015–2019,India,Asia,Passenger,Derailment,Environmental / Natural,31,100,False,255.0,Extreme,Fatal,Flood-related derailment
+190,2015-08-13,2015,2010,2015–2019,France,Europe,Passenger,Derailment,Human Error,11,42,False,97.0,High,Fatal,High-speed test derailment
+191,2015-09-05,2015,2010,2015–2019,China,Asia,Cargo,Fire/Explosion,Technical Failure,0,0,True,0.0,Low,Non-fatal,Cargo explosion near rail yard
+192,2015-10-08,2015,2010,2015–2019,Germany,Europe,Passenger,Collision,Infrastructure Failure,2,22,False,32.0,Medium,Fatal,Passenger trains collided
+193,2015-11-15,2015,2010,2015–2019,India,Asia,Passenger,Derailment,Infrastructure Failure,0,30,False,30.0,Medium,Non-fatal,Passenger derailment
+194,2015-12-02,2015,2010,2015–2019,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Oil train derailment
+195,2015-12-20,2015,2010,2015–2019,Russia,Europe,Metro,Collision,Human Error,0,30,False,30.0,Medium,Non-fatal,Metro train collision
+196,2016-01-15,2016,2010,2015–2019,United States,North America,Metro,Fire/Explosion,Technical Failure,1,80,False,85.0,High,Fatal,Smoke incident in metro tunnel
+197,2016-01-20,2016,2010,2015–2019,Italy,Europe,Metro,Collision,Infrastructure Failure,0,70,False,70.0,High,Non-fatal,Head-on light rail crash
+198,2016-01-31,2016,2010,2015–2019,Egypt,Africa,Passenger,Collision,Human Error,7,20,False,55.0,Medium,Fatal,Train hit truck at crossing
+199,2016-02-09,2016,2010,2015–2019,Germany,Europe,Passenger,Collision,Human Error,11,85,False,140.0,Extreme,Fatal,Dispatcher error during single-track operation
+200,2016-02-23,2016,2010,2015–2019,Netherlands,Europe,Passenger,Collision,Human Error,1,6,False,11.0,Low,Fatal,Train hit crane on crossing
+201,2016-03-07,2016,2010,2015–2019,United States,North America,Passenger,Derailment,Environmental / Natural,0,14,False,14.0,Low,Non-fatal,Tree fell on tracks
+202,2016-03-14,2016,2010,2015–2019,United States,North America,Passenger,Derailment,Infrastructure Failure,0,32,False,32.0,Medium,Non-fatal,Amtrak Southwest Chief derailment
+203,2016-04-03,2016,2010,2015–2019,United States,North America,Passenger,Collision,Human Error,2,31,False,41.0,Medium,Fatal,Train hit maintenance vehicle
+204,2016-04-04,2016,2010,2015–2019,Thailand,Asia,Passenger,Collision,Human Error,3,25,False,40.0,Medium,Fatal,Bus struck train at crossing
+205,2016-04-08,2016,2010,2015–2019,Costa Rica,North America,Passenger,Collision,Infrastructure Failure,0,200,False,200.0,Extreme,Non-fatal,Commuter trains collided
+206,2016-05-08,2016,2010,2015–2019,Nigeria,Africa,Cargo,Derailment,Technical Failure,0,4,False,4.0,Low,Non-fatal,Runaway freight derailment
+207,2016-06-03,2016,2010,2015–2019,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Crude oil train fire in Mosier
+208,2016-06-06,2016,2010,2015–2019,Belgium,Europe,Passenger,Collision,Infrastructure Failure,3,40,False,55.0,Medium,Fatal,Passenger hit freight train
+209,2016-06-26,2016,2010,2015–2019,United States,North America,Passenger,Collision,Human Error,5,1,False,26.0,Medium,Fatal,Van hit by Amtrak train
+210,2016-07-12,2016,2010,2015–2019,Italy,Europe,Passenger,Collision,Human Error,23,54,False,169.0,Extreme,Fatal,Head-on single-track collision
+211,2016-09-29,2016,2010,2015–2019,United States,North America,Passenger,Derailment,Human Error,1,114,False,119.0,High,Fatal,Hoboken terminal crash
+212,2016-10-21,2016,2010,2015–2019,Cameroon,Africa,Passenger,Derailment,Human Error,79,551,False,946.0,Extreme,Fatal,Severe overcrowding and speed
+213,2016-11-09,2016,2010,2015–2019,United Kingdom,Europe,Metro,Derailment,Human Error,7,58,False,93.0,High,Fatal,Tram overturned on curve
+214,2016-11-25,2016,2010,2015–2019,Iran,Asia,Passenger,Collision,Technical Failure,49,103,False,348.0,Extreme,Fatal,Train struck broken-down train
+215,2016-12-10,2016,2010,2015–2019,Bulgaria,Europe,Cargo,Derailment,Infrastructure Failure,7,29,True,64.0,High,Fatal,LPG tanker explosion
+216,2017-01-04,2017,2010,2015–2019,United States,North America,Passenger,Collision,Human Error,0,103,False,103.0,High,Non-fatal,Brooklyn terminal buffer collision
+217,2017-01-10,2017,2010,2015–2019,India,Asia,Other,Derailment,Technical Failure,0,10,False,10.0,Low,Non-fatal,Himalayan Railway derailment
+218,2017-01-21,2017,2010,2015–2019,India,Asia,Passenger,Derailment,Infrastructure Failure,41,68,False,273.0,Extreme,Fatal,Express train derailment
+219,2017-02-08,2017,2010,2015–2019,United States,North America,Metro,Collision,Human Error,1,1,False,6.0,Low,Fatal,Metromover hit equipment
+220,2017-02-14,2017,2010,2015–2019,Australia,Oceania,Passenger,Derailment,External / Other,0,2,False,2.0,Low,Non-fatal,Abandoned vehicle on track
+221,2017-02-14,2017,2010,2015–2019,Luxembourg,Europe,Passenger,Collision,Infrastructure Failure,1,2,False,7.0,Low,Fatal,Head-on with freight train
+222,2017-02-18,2017,2010,2015–2019,Belgium,Europe,Passenger,Derailment,Technical Failure,1,27,False,32.0,Medium,Fatal,Passenger train derailment
+223,2017-02-20,2017,2010,2015–2019,South Africa,Africa,Passenger,Collision,Infrastructure Failure,0,100,False,100.0,High,Non-fatal,Same-track collision
+224,2017-02-21,2017,2010,2015–2019,United States,North America,Metro,Collision,Human Error,0,4,False,4.0,Low,Non-fatal,SEPTA yard crash
+225,2017-03-07,2017,2010,2015–2019,United States,North America,Cargo,Collision,Human Error,4,0,False,20.0,Medium,Fatal,Bus stuck on tracks
+226,2017-03-10,2017,2010,2015–2019,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Ethanol train explosion
+227,2017-03-29,2017,2010,2015–2019,India,Asia,Passenger,Derailment,Infrastructure Failure,0,25,False,25.0,Medium,Non-fatal,Mahakaushal Express
+228,2017-04-08,2017,2010,2015–2019,Russia,Europe,Passenger,Collision,Infrastructure Failure,0,50,False,50.0,Medium,Non-fatal,Suburban passenger trains
+229,2017-05-13,2017,2010,2015–2019,Greece,Europe,Passenger,Derailment,Human Error,3,10,False,25.0,Medium,Fatal,Curve derailment
+230,2017-06-27,2017,2010,2015–2019,United States,North America,Metro,Derailment,Infrastructure Failure,0,39,False,39.0,Medium,Non-fatal,Subway derailment with fire
+231,2017-07-02,2017,2010,2015–2019,United States,North America,Passenger,Derailment,Infrastructure Failure,0,6,False,6.0,Low,Non-fatal,Amtrak derailment
+232,2017-07-28,2017,2010,2015–2019,Spain,Europe,Passenger,Collision,Human Error,0,56,False,56.0,Medium,Non-fatal,Buffer stop collision
+233,2017-08-11,2017,2010,2015–2019,Egypt,Africa,Passenger,Collision,Infrastructure Failure,40,133,False,333.0,Extreme,Fatal,Major head-on crash
+234,2017-08-19,2017,2010,2015–2019,India,Asia,Passenger,Derailment,Infrastructure Failure,23,60,False,175.0,Extreme,Fatal,Kalinga Utkal Express
+235,2017-09-15,2017,2010,2015–2019,Switzerland,Europe,Passenger,Collision,Human Error,0,30,False,30.0,Medium,Non-fatal,Shunting accident
+236,2017-10-06,2017,2010,2015–2019,Russia,Europe,Passenger,Collision,Human Error,16,0,False,80.0,High,Fatal,Bus hit by train
+237,2017-10-26,2017,2010,2015–2019,Finland,Europe,Passenger,Collision,Human Error,4,4,False,24.0,Medium,Fatal,Military vehicle crossing
+238,2017-11-15,2017,2010,2015–2019,Singapore,Asia,Metro,Collision,Infrastructure Failure,0,36,False,36.0,Medium,Non-fatal,Signalling system fault
+239,2017-11-27,2017,2010,2015–2019,Belgium,Europe,Passenger,Collision,Human Error,2,7,False,17.0,Low,Fatal,Runaway train during recovery
+240,2017-12-14,2017,2010,2015–2019,France,Europe,Passenger,Collision,Human Error,6,24,False,54.0,Medium,Fatal,School bus at level crossing
+241,2017-12-18,2017,2010,2015–2019,United States,North America,Passenger,Derailment,Human Error,3,80,False,95.0,High,Fatal,Amtrak Cascades crash
+242,2018-01-04,2018,2010,2015–2019,South Africa,Africa,Passenger,Collision,Human Error,20,254,False,354.0,Extreme,Fatal,Train hit lorry at level crossing
+243,2018-01-09,2018,2010,2015–2019,South Africa,Africa,Passenger,Collision,Infrastructure Failure,0,226,False,226.0,Extreme,Non-fatal,Rear-end commuter collision
+244,2018-01-22,2018,2010,2015–2019,Australia,Oceania,Passenger,Collision,Human Error,0,16,False,16.0,Low,Non-fatal,Buffer stop collision
+245,2018-01-25,2018,2010,2015–2019,Italy,Europe,Passenger,Derailment,Infrastructure Failure,3,100,False,115.0,High,Fatal,Broken rail caused derailment
+246,2018-01-31,2018,2010,2015–2019,United States,North America,Passenger,Collision,Human Error,1,6,False,11.0,Low,Fatal,Truck at grade crossing
+247,2018-02-04,2018,2010,2015–2019,United States,North America,Passenger,Collision,Infrastructure Failure,2,100,False,110.0,High,Fatal,Amtrak–freight collision
+248,2018-02-12,2018,2010,2015–2019,Austria,Europe,Passenger,Collision,Infrastructure Failure,1,22,False,27.0,Medium,Fatal,Head-on collision
+249,2018-02-28,2018,2010,2015–2019,Egypt,Africa,Passenger,Collision,Human Error,15,50,False,125.0,Extreme,Fatal,Head-on suburban crash
+250,2018-03-18,2018,2010,2015–2019,United States,North America,Cargo,Collision,Infrastructure Failure,0,4,False,4.0,Low,Non-fatal,Head-on freight trains
+251,2018-04-20,2018,2010,2015–2019,Austria,Europe,Passenger,Collision,Infrastructure Failure,0,40,False,40.0,Medium,Non-fatal,Station-area collision
+252,2018-05-07,2018,2010,2015–2019,Germany,Europe,Passenger,Collision,Human Error,2,0,False,10.0,Low,Fatal,Train hit parked freight
+253,2018-05-23,2018,2010,2015–2019,Italy,Europe,Passenger,Collision,Human Error,2,18,False,28.0,Medium,Fatal,Truck stuck on crossing
+254,2018-05-30,2018,2010,2015–2019,Mexico,North America,Cargo,Collision,Infrastructure Failure,1,5,True,10.0,Low,Fatal,Freight collision with fire
+255,2018-06-17,2018,2010,2015–2019,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Propane derailment evacuation
+256,2018-06-22,2018,2010,2015–2019,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Crude oil spill
+257,2018-06-26,2018,2010,2015–2019,Austria,Europe,Passenger,Derailment,Technical Failure,0,30,False,30.0,Medium,Non-fatal,Regional passenger derailment
+258,2018-07-08,2018,2010,2015–2019,Turkey,Europe,Passenger,Derailment,Infrastructure Failure,24,300,False,420.0,Extreme,Fatal,Washout after heavy rain
+259,2018-07-09,2018,2010,2015–2019,United States,North America,Passenger,Collision,Human Error,0,13,False,13.0,Low,Non-fatal,Bus at crossing
+260,2018-07-31,2018,2010,2015–2019,Peru,South America,Passenger,Collision,Infrastructure Failure,0,10,False,10.0,Low,Non-fatal,Tourist trains collision
+261,2018-08-23,2018,2010,2015–2019,Bosnia And Herzegovina,Europe,Cargo,Collision,Infrastructure Failure,2,1,False,11.0,Low,Fatal,Head-on freight crash
+262,2018-08-25,2018,2010,2015–2019,United States,North America,Passenger,Collision,Human Error,2,11,False,21.0,Medium,Fatal,Dump truck at crossing
+263,2018-09-20,2018,2010,2015–2019,Netherlands,Europe,Passenger,Collision,Human Error,4,2,False,22.0,Medium,Fatal,Level-crossing accident
+264,2018-10-12,2018,2010,2015–2019,Germany,Europe,Passenger,Fire/Explosion,Technical Failure,0,3,False,3.0,Low,Non-fatal,ICE train fire
+265,2018-10-16,2018,2010,2015–2019,Morocco,Africa,Passenger,Derailment,Human Error,7,80,False,115.0,High,Fatal,Curve derailment
+266,2018-10-19,2018,2010,2015–2019,India,Asia,Passenger,Collision,Human Error,50,200,False,450.0,Extreme,Fatal,Train hit festival crowd
+267,2018-10-21,2018,2010,2015–2019,Taiwan,Asia,Passenger,Derailment,Human Error,18,175,False,265.0,Extreme,Fatal,Puyuma Express
+268,2018-11-20,2018,2010,2015–2019,Spain,Europe,Passenger,Derailment,Environmental / Natural,1,44,False,49.0,Medium,Fatal,Track blocked by debris
+269,2018-12-13,2018,2010,2015–2019,Turkey,Europe,Passenger,Collision,Infrastructure Failure,9,48,False,93.0,High,Fatal,High-speed train crash
+270,2018-12-14,2018,2010,2015–2019,Portugal,Europe,Metro,Derailment,Human Error,0,28,False,28.0,Medium,Non-fatal,Curve derailment
+271,2018-12-21,2018,2010,2015–2019,Serbia,Europe,Passenger,Collision,Human Error,5,13,False,38.0,Medium,Fatal,Bus at crossing
+272,2019-01-02,2019,2010,2015–2019,Denmark,Europe,Passenger,Collision,Infrastructure Failure,8,16,False,56.0,Medium,Fatal,Trailer from freight train struck passenger train
+273,2019-01-08,2019,2010,2015–2019,South Africa,Africa,Passenger,Collision,Infrastructure Failure,4,620,False,640.0,Extreme,Fatal,Severe commuter collision
+274,2019-01-10,2019,2010,2015–2019,Nigeria,Africa,Passenger,Derailment,Infrastructure Failure,0,10,False,10.0,Low,Non-fatal,Urban derailment
+275,2019-01-14,2019,2010,2015–2019,India,Asia,Passenger,Collision,Human Error,3,0,False,15.0,Low,Fatal,Pedestrians on track
+276,2019-01-25,2019,2010,2015–2019,United States,North America,Cargo,Collision,Human Error,1,1,False,6.0,Low,Fatal,School bus at crossing
+277,2019-02-03,2019,2010,2015–2019,India,Asia,Passenger,Derailment,Infrastructure Failure,6,0,False,30.0,Medium,Fatal,Seemanchal Express
+278,2019-02-04,2019,2010,2015–2019,Canada,North America,Cargo,Derailment,Infrastructure Failure,3,0,False,15.0,Low,Fatal,CP freight derailment
+279,2019-02-08,2019,2010,2015–2019,Spain,Europe,Passenger,Collision,Infrastructure Failure,1,95,False,100.0,High,Fatal,Head-on passenger collision
+280,2019-02-26,2019,2010,2015–2019,United States,North America,Passenger,Collision,Human Error,3,50,False,65.0,High,Fatal,Pickup truck at grade crossing
+281,2019-02-27,2019,2010,2015–2019,Egypt,Africa,Passenger,Collision,Technical Failure,25,50,False,175.0,Extreme,Fatal,Ramses Station disaster
+282,2019-03-17,2019,2010,2015–2019,Dr Congo,Africa,Cargo,Derailment,Human Error,32,70,False,230.0,Extreme,Fatal,Passenger-loaded freight train
+283,2019-05-15,2019,2010,2015–2019,India,Asia,Passenger,Derailment,Environmental / Natural,0,1,False,1.0,Low,Non-fatal,Buffalo strike
+284,2019-05-19,2019,2010,2015–2019,Philippines,Asia,Metro,Collision,Infrastructure Failure,0,34,False,34.0,Medium,Non-fatal,LRT pocket track error
+285,2019-06-06,2019,2010,2015–2019,United States,North America,Metro,Derailment,Infrastructure Failure,0,7,False,7.0,Low,Non-fatal,CTA Yellow Line derailment
+286,2019-06-24,2019,2010,2015–2019,Bangladesh,Asia,Passenger,Derailment,Infrastructure Failure,4,200,False,220.0,Extreme,Fatal,Rural passenger derailment
+287,2019-07-03,2019,2010,2015–2019,United Kingdom,Europe,Other,Collision,Human Error,2,0,False,10.0,Low,Fatal,Track workers struck
+288,2019-07-11,2019,2010,2015–2019,Pakistan,Asia,Passenger,Collision,Infrastructure Failure,24,60,False,180.0,Extreme,Fatal,Passenger-cargo collision
+289,2019-07-28,2019,2010,2015–2019,United States,North America,Passenger,Collision,Human Error,1,2,False,7.0,Low,Fatal,Truck stalled on crossing
+290,2019-08-23,2019,2010,2015–2019,United States,North America,Metro,Collision,Infrastructure Failure,0,16,False,16.0,Low,Non-fatal,Light rail collision
+291,2019-09-12,2019,2010,2015–2019,Dr Congo,Africa,Passenger,Derailment,Human Error,50,0,False,250.0,Extreme,Fatal,Overloaded train derailment
+292,2019-10-31,2019,2010,2015–2019,Pakistan,Asia,Passenger,Fire/Explosion,Technical Failure,64,30,False,350.0,Extreme,Fatal,Tezgam Express fire
+293,2019-11-12,2019,2010,2015–2019,Bangladesh,Asia,Passenger,Collision,Infrastructure Failure,16,100,False,180.0,Extreme,Fatal,Head-on collision
+294,2019-11-12,2019,2010,2015–2019,India,Asia,Passenger,Collision,Infrastructure Failure,1,12,False,17.0,Low,Fatal,Passenger trains collision
+295,2019-12-10,2019,2010,2015–2019,Botswana,Africa,Cargo,Derailment,Technical Failure,2,0,False,10.0,Low,Fatal,Crew fatalities
+296,2020-01-01,2020,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,2,True,2.0,Low,Non-fatal,BNSF train derailed into Kootenai River
+297,2020-01-07,2020,2020,2020–2024,Mexico,North America,Cargo,Collision,Human Error,7,30,False,65.0,High,Fatal,Train struck bus at level crossing
+298,2020-01-29,2020,2020,2020–2024,Australia,Oceania,Cargo,Derailment,Infrastructure Failure,0,19,False,19.0,Low,Non-fatal,Freight derailed and collided with passenger train
+299,2020-02-06,2020,2020,2020–2024,Italy,Europe,High-Speed,Derailment,Infrastructure Failure,2,31,False,41.0,Medium,Fatal,Frecciarossa derailment
+300,2020-02-06,2020,2020,2020–2024,Canada,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Crude oil train derailment and fire
+301,2020-02-10,2020,2020,2020–2024,United States,North America,Metro,Collision,Environmental / Natural,0,3,False,3.0,Low,Non-fatal,Boulder struck PRT train
+302,2020-02-13,2020,2020,2020–2024,United States,North America,Cargo,Derailment,Environmental / Natural,0,2,True,2.0,Low,Non-fatal,Rockslide caused derailment and fire
+303,2020-02-20,2020,2020,2020–2024,Australia,Oceania,Passenger,Derailment,Human Error,2,1,False,11.0,Low,Fatal,Sydney–Melbourne XPT derailment
+304,2020-02-24,2020,2020,2020–2024,Thailand,Asia,Passenger,Collision,Infrastructure Failure,0,30,False,30.0,Medium,Non-fatal,Head-on freight and passenger collision
+305,2020-02-28,2020,2020,2020–2024,Pakistan,Asia,Passenger,Collision,Human Error,20,40,False,140.0,Extreme,Fatal,Train hit bus at crossing
+306,2020-03-05,2020,2020,2020–2024,France,Europe,High-Speed,Derailment,Environmental / Natural,0,22,False,22.0,Medium,Non-fatal,TGV derailment during test run
+307,2020-03-10,2020,2020,2020–2024,Mexico,North America,Metro,Collision,Infrastructure Failure,1,41,False,46.0,Medium,Fatal,Metro collision at Tacubaya
+308,2020-03-27,2020,2020,2020–2024,United States,North America,Metro,Fire/Explosion,Technical Failure,1,16,False,21.0,Medium,Fatal,NYC Subway fire
+309,2020-03-27,2020,2020,2020–2024,United States,North America,Passenger,Derailment,Infrastructure Failure,0,1,False,1.0,Low,Non-fatal,Amtrak Auto Train derailment
+310,2020-03-30,2020,2020,2020–2024,China,Asia,Passenger,Derailment,Environmental / Natural,1,127,False,132.0,Extreme,Fatal,Train hit debris after landslide
+311,2020-04-03,2020,2020,2020–2024,Germany,Europe,Cargo,Collision,Infrastructure Failure,1,3,False,8.0,Low,Fatal,Train hit collapsed bridge component
+312,2020-05-08,2020,2020,2020–2024,India,Asia,Cargo,Collision,Human Error,16,0,False,80.0,High,Fatal,Migrant workers run over
+313,2020-05-22,2020,2020,2020–2024,Netherlands,Europe,Passenger,Collision,Human Error,1,3,False,8.0,Low,Fatal,Train hit farm vehicle
+314,2020-05-24,2020,2020,2020–2024,Iran,Asia,Passenger,Derailment,Technical Failure,0,5,False,5.0,Low,Non-fatal,Passenger train derailment
+315,2020-06-02,2020,2020,2020–2024,Spain,Europe,Passenger,Collision,Human Error,2,0,False,10.0,Low,Fatal,High-speed train hit fallen truck
+316,2020-06-07,2020,2020,2020–2024,China,Asia,Passenger,Derailment,Environmental / Natural,0,1,False,1.0,Low,Non-fatal,Heavy rain caused derailment
+317,2020-07-07,2020,2020,2020–2024,Czech Republic,Europe,Passenger,Collision,Infrastructure Failure,2,24,False,34.0,Medium,Fatal,Head-on collision
+318,2020-07-15,2020,2020,2020–2024,Czech Republic,Europe,Passenger,Collision,Infrastructure Failure,1,35,False,40.0,Medium,Fatal,Passenger-freight collision
+319,2020-07-29,2020,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,1,False,1.0,Low,Non-fatal,Bridge derailment
+320,2020-07-31,2020,2020,2020–2024,Portugal,Europe,High-Speed,Derailment,External / Other,2,43,False,53.0,Medium,Fatal,Hit maintenance vehicle
+321,2020-08-12,2020,2020,2020–2024,United Kingdom,Europe,Passenger,Derailment,Environmental / Natural,3,6,False,21.0,Medium,Fatal,Washout after heavy rain
+322,2020-08-19,2020,2020,2020–2024,Italy,Europe,Passenger,Derailment,External / Other,0,3,False,3.0,Low,Non-fatal,Crewless runaway train
+323,2020-08-27,2020,2020,2020–2024,United Kingdom,Europe,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Fire after derailment
+324,2020-09-20,2020,2020,2020–2024,United States,North America,Metro,Derailment,External / Other,0,3,False,3.0,Low,Non-fatal,Intentional obstruction
+325,2020-10-11,2020,2020,2020–2024,United States,North America,Cargo,Derailment,Environmental / Natural,0,2,False,2.0,Low,Non-fatal,Hurricane-related derailment
+326,2020-10-29,2020,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Corrosive materials spill
+327,2020-11-02,2020,2020,2020–2024,Netherlands,Europe,Metro,Collision,Human Error,0,3,False,3.0,Low,Non-fatal,Buffer stop collision
+328,2020-11-28,2020,2020,2020–2024,United States,North America,Cargo,Collision,Human Error,0,1,False,1.0,Low,Non-fatal,Freight collision
+329,2020-12-19,2020,2020,2020–2024,United States,North America,Metro,Collision,Infrastructure Failure,0,2,False,2.0,Low,Non-fatal,DART trains collided
+330,2020-12-19,2020,2020,2020–2024,Bangladesh,Asia,Passenger,Collision,Human Error,12,6,False,66.0,High,Fatal,Gatekeeper asleep at crossing
+331,2020-12-22,2020,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Bakken crude oil derailment
+332,2021-01-06,2021,2020,2020–2024,United States,North America,Metro,Collision,Human Error,1,23,False,28.0,Medium,Fatal,PATH train struck bumper block
+333,2021-01-15,2021,2020,2020–2024,Pakistan,Asia,Passenger,Collision,Infrastructure Failure,19,40,False,135.0,Extreme,Fatal,Millat Express and Sir Syed Express
+334,2021-02-01,2021,2020,2020–2024,India,Asia,Passenger,Derailment,Infrastructure Failure,0,15,False,15.0,Low,Non-fatal,Passenger train derailment
+335,2021-02-04,2021,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Hazmat cars derailed
+336,2021-03-01,2021,2020,2020–2024,Egypt,Africa,Passenger,Collision,Infrastructure Failure,32,165,False,325.0,Extreme,Fatal,Passenger trains collision
+337,2021-03-26,2021,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,3,True,3.0,Low,Non-fatal,BNSF crude oil derailment
+338,2021-04-02,2021,2020,2020–2024,Taiwan,Asia,Passenger,Derailment,Infrastructure Failure,49,200,False,445.0,Extreme,Fatal,Taroko Express tunnel crash
+339,2021-04-04,2021,2020,2020–2024,Netherlands,Europe,Passenger,Collision,Infrastructure Failure,1,30,False,35.0,Medium,Fatal,Passenger-freight collision
+340,2021-04-19,2021,2020,2020–2024,United States,North America,Passenger,Collision,Human Error,0,7,False,7.0,Low,Non-fatal,Amtrak Empire Builder hit vehicle
+341,2021-05-08,2021,2020,2020–2024,Poland,Europe,Cargo,Derailment,Infrastructure Failure,0,2,False,2.0,Low,Non-fatal,Freight derailment
+342,2021-05-12,2021,2020,2020–2024,India,Asia,Passenger,Collision,Infrastructure Failure,9,45,False,90.0,High,Fatal,Passenger-freight collision
+343,2021-06-06,2021,2020,2020–2024,United States,North America,Passenger,Derailment,Environmental / Natural,0,3,False,3.0,Low,Non-fatal,Coastal bluff collapse
+344,2021-06-15,2021,2020,2020–2024,Mexico,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Fuel spill derailment
+345,2021-07-02,2021,2020,2020–2024,Germany,Europe,Passenger,Derailment,Infrastructure Failure,5,71,False,96.0,High,Fatal,Regional train derailment
+346,2021-07-15,2021,2020,2020–2024,India,Asia,Passenger,Collision,Infrastructure Failure,3,50,False,65.0,High,Fatal,Passenger train collision
+347,2021-08-08,2021,2020,2020–2024,United Kingdom,Europe,Metro,Derailment,Technical Failure,0,5,False,5.0,Low,Non-fatal,Tube train derailment
+348,2021-08-20,2021,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,BNSF derailment with fire
+349,2021-09-13,2021,2020,2020–2024,Iran,Asia,Passenger,Collision,Infrastructure Failure,0,22,False,22.0,Medium,Non-fatal,Passenger collision
+350,2021-10-15,2021,2020,2020–2024,Japan,Asia,Passenger,Collision,Human Error,0,17,False,17.0,Low,Non-fatal,Train overshot platform
+351,2021-11-18,2021,2020,2020–2024,India,Asia,Passenger,Derailment,Infrastructure Failure,0,9,False,9.0,Low,Non-fatal,Passenger derailment
+352,2021-12-04,2021,2020,2020–2024,United States,North America,Passenger,Derailment,Infrastructure Failure,3,7,False,22.0,Medium,Fatal,Amtrak Empire Builder derailment
+353,2021-12-10,2021,2020,2020–2024,South Africa,Africa,Passenger,Collision,Infrastructure Failure,0,30,False,30.0,Medium,Non-fatal,Commuter rear-end collision
+354,2022-01-08,2022,2020,2020–2024,Germany,Europe,Passenger,Collision,Human Error,0,14,False,14.0,Low,Non-fatal,Regional train hit vehicle at crossing
+355,2022-01-20,2022,2020,2020–2024,India,Asia,Passenger,Derailment,Infrastructure Failure,9,36,False,81.0,High,Fatal,Bikaner–Guwahati Express
+356,2022-02-01,2022,2020,2020–2024,United States,North America,Metro,Collision,Infrastructure Failure,0,13,False,13.0,Low,Non-fatal,LA Metro train collision
+357,2022-02-10,2022,2020,2020–2024,Egypt,Africa,Passenger,Collision,Human Error,0,13,False,13.0,Low,Non-fatal,Train hit minibus
+358,2022-03-07,2022,2020,2020–2024,India,Asia,Passenger,Derailment,Infrastructure Failure,0,24,False,24.0,Medium,Non-fatal,Passenger train derailment
+359,2022-03-15,2022,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Coal train derailment
+360,2022-04-03,2022,2020,2020–2024,Japan,Asia,Passenger,Derailment,Environmental / Natural,0,6,False,6.0,Low,Non-fatal,High winds caused derailment
+361,2022-04-18,2022,2020,2020–2024,Netherlands,Europe,Passenger,Collision,Infrastructure Failure,1,30,False,35.0,Medium,Fatal,Intercity hit maintenance vehicle
+362,2022-05-06,2022,2020,2020–2024,United States,North America,Passenger,Collision,Human Error,1,0,False,5.0,Low,Fatal,Amtrak hit trespasser
+363,2022-05-11,2022,2020,2020–2024,Germany,Europe,Passenger,Derailment,Infrastructure Failure,0,5,False,5.0,Low,Non-fatal,Minor derailment near previous site
+364,2022-06-03,2022,2020,2020–2024,India,Asia,Passenger,Collision,Infrastructure Failure,0,25,False,25.0,Medium,Non-fatal,Suburban train collision
+365,2022-06-26,2022,2020,2020–2024,United States,North America,Passenger,Collision,Human Error,1,7,False,12.0,Low,Fatal,Pickup truck at crossing
+366,2022-07-01,2022,2020,2020–2024,Spain,Europe,Passenger,Derailment,Human Error,0,9,False,9.0,Low,Non-fatal,Curve derailment
+367,2022-07-16,2022,2020,2020–2024,United Kingdom,Europe,Metro,Derailment,Technical Failure,0,5,False,5.0,Low,Non-fatal,Underground derailment
+368,2022-08-05,2022,2020,2020–2024,India,Asia,Passenger,Derailment,Infrastructure Failure,0,18,False,18.0,Low,Non-fatal,Express train derailment
+369,2022-08-21,2022,2020,2020–2024,United States,North America,Cargo,Collision,Human Error,0,2,False,2.0,Low,Non-fatal,Freight trains collision
+370,2022-09-02,2022,2020,2020–2024,Italy,Europe,Passenger,Collision,Human Error,0,12,False,12.0,Low,Non-fatal,Regional train hit vehicle
+371,2022-09-15,2022,2020,2020–2024,Pakistan,Asia,Passenger,Derailment,Infrastructure Failure,0,27,False,27.0,Medium,Non-fatal,Passenger derailment
+372,2022-10-07,2022,2020,2020–2024,Canada,North America,Passenger,Collision,Human Error,0,4,False,4.0,Low,Non-fatal,GO Transit hit obstruction
+373,2022-10-22,2022,2020,2020–2024,India,Asia,Passenger,Collision,Infrastructure Failure,1,15,False,20.0,Medium,Fatal,Passenger-freight collision
+374,2022-11-05,2022,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Hazmat tanker derailment
+375,2022-11-18,2022,2020,2020–2024,Bangladesh,Asia,Passenger,Collision,Human Error,0,20,False,20.0,Medium,Non-fatal,Level-crossing crash
+376,2022-12-02,2022,2020,2020–2024,France,Europe,Passenger,Derailment,Infrastructure Failure,0,7,False,7.0,Low,Non-fatal,Regional derailment
+377,2022-12-19,2022,2020,2020–2024,South Africa,Africa,Passenger,Collision,Infrastructure Failure,0,41,False,41.0,Medium,Non-fatal,Commuter rear-end collision
+378,2023-02-03,2023,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Norfolk Southern hazmat derailment and chemical release
+379,2023-02-10,2023,2020,2020–2024,India,Asia,Passenger,Collision,Infrastructure Failure,288,1000,False,2440.0,Extreme,Fatal,Three-train collision at Bahanaga Bazar
+380,2023-03-28,2023,2020,2020–2024,Greece,Europe,Passenger,Collision,Infrastructure Failure,57,85,False,370.0,Extreme,Fatal,Head-on passenger-freight collision
+381,2023-04-02,2023,2020,2020–2024,Netherlands,Europe,Passenger,Collision,Infrastructure Failure,1,30,False,35.0,Medium,Fatal,Intercity hit construction equipment
+382,2023-04-30,2023,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Ethanol train derailment and fire
+383,2023-05-02,2023,2020,2020–2024,Italy,Europe,Passenger,Collision,Human Error,0,14,False,14.0,Low,Non-fatal,Regional train hit maintenance vehicle
+384,2023-06-02,2023,2020,2020–2024,India,Asia,Passenger,Derailment,Infrastructure Failure,0,12,False,12.0,Low,Non-fatal,Passenger train derailment
+385,2023-06-27,2023,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,BNSF crude oil derailment near river
+386,2023-07-08,2023,2020,2020–2024,India,Asia,Passenger,Derailment,Infrastructure Failure,0,9,False,9.0,Low,Non-fatal,Express train derailment
+387,2023-07-30,2023,2020,2020–2024,Pakistan,Asia,Passenger,Derailment,Infrastructure Failure,30,90,False,240.0,Extreme,Fatal,Hazara Express derailment
+388,2023-08-20,2023,2020,2020–2024,United States,North America,Metro,Collision,Human Error,1,23,False,28.0,Medium,Fatal,Muni Metro collision
+389,2023-09-13,2023,2020,2020–2024,Germany,Europe,Passenger,Collision,Human Error,0,15,False,15.0,Low,Non-fatal,Regional train hit truck at crossing
+390,2023-10-11,2023,2020,2020–2024,India,Asia,Passenger,Collision,Infrastructure Failure,0,20,False,20.0,Medium,Non-fatal,Passenger-freight collision
+391,2023-11-02,2023,2020,2020–2024,Canada,North America,Cargo,Derailment,Infrastructure Failure,0,3,True,3.0,Low,Non-fatal,Freight derailment with fuel spill
+392,2023-12-18,2023,2020,2020–2024,Spain,Europe,Passenger,Collision,Human Error,0,28,False,28.0,Medium,Non-fatal,Commuter train buffer stop collision
+393,2024-01-02,2024,2020,2020–2024,United States,North America,Metro,Derailment,Infrastructure Failure,0,25,False,25.0,Medium,Non-fatal,Light rail derailment on elevated section
+394,2024-01-11,2024,2020,2020–2024,India,Asia,Passenger,Collision,Human Error,0,18,False,18.0,Low,Non-fatal,Passenger train hit vehicle at level crossing
+395,2024-01-24,2024,2020,2020–2024,Canada,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Grain train derailment with minor spill
+396,2024-02-06,2024,2020,2020–2024,Pakistan,Asia,Passenger,Derailment,Infrastructure Failure,3,20,False,35.0,Medium,Fatal,Passenger coaches derailed near station
+397,2024-02-18,2024,2020,2020–2024,France,Europe,Metro,Collision,Infrastructure Failure,0,36,False,36.0,Medium,Non-fatal,Metro rear-end collision during peak hours
+398,2024-03-03,2024,2020,2020–2024,United States,North America,Cargo,Collision,Human Error,1,2,False,7.0,Low,Fatal,Freight train hit maintenance vehicle
+399,2024-03-17,2024,2020,2020–2024,India,Asia,Passenger,Derailment,Infrastructure Failure,0,12,False,12.0,Low,Non-fatal,Express train derailment
+400,2024-04-05,2024,2020,2020–2024,Japan,Asia,Passenger,Collision,Human Error,0,14,False,14.0,Low,Non-fatal,Commuter train overshot platform
+401,2024-04-22,2024,2020,2020–2024,Italy,Europe,Passenger,Derailment,Technical Failure,1,22,False,27.0,Medium,Fatal,Regional train derailment
+402,2024-05-09,2024,2020,2020–2024,United Kingdom,Europe,Passenger,Derailment,Environmental / Natural,0,6,False,6.0,Low,Non-fatal,Heavy rain caused washout
+403,2024-05-28,2024,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Hazmat tanker derailment
+404,2024-06-14,2024,2020,2020–2024,India,Asia,Passenger,Collision,Infrastructure Failure,0,30,False,30.0,Medium,Non-fatal,Passenger-freight side collision
+405,2024-07-02,2024,2020,2020–2024,Germany,Europe,Passenger,Collision,Human Error,0,19,False,19.0,Low,Non-fatal,Train hit truck at crossing
+406,2024-07-19,2024,2020,2020–2024,Argentina,South America,Passenger,Derailment,Technical Failure,0,15,False,15.0,Low,Non-fatal,Suburban EMU derailment
+407,2024-08-11,2024,2020,2020–2024,United States,North America,Passenger,Collision,Human Error,2,8,False,18.0,Low,Fatal,Vehicle stalled on tracks
+408,2024-09-03,2024,2020,2020–2024,India,Asia,Passenger,Derailment,Infrastructure Failure,0,21,False,21.0,Medium,Non-fatal,Passenger train derailment
+409,2024-09-26,2024,2020,2020–2024,Spain,Europe,Passenger,Collision,Infrastructure Failure,0,17,False,17.0,Low,Non-fatal,Regional train collision
+410,2024-10-08,2024,2020,2020–2024,South Africa,Africa,Passenger,Collision,Infrastructure Failure,0,110,False,110.0,High,Non-fatal,Commuter rear-end collision
+411,2024-10-21,2024,2020,2020–2024,United States,North America,Cargo,Derailment,Infrastructure Failure,0,0,True,0.0,Low,Non-fatal,Crude oil train derailment
+412,2024-11-15,2024,2020,2020–2024,India,Asia,Passenger,Collision,Human Error,1,9,False,14.0,Low,Fatal,Passenger train hit trespassers
